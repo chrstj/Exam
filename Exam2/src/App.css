@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	padding: 15px;
+	background: #63C5C2;
+}
+
+nav a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+
+form {
+	margin: 1rem auto;
+	padding: 1rem;
+	background-color: white;
+	max-width: 500px;
+}
+
+input,
+textarea {
+	font-size: 1rem;
+	margin-top: 10px;
+	width: 100%;
+	padding: 5px;
+}
+
+textarea {
+	height: 200px;
+}
+
+button {
+	font-size: 1rem;
+	margin-top: 10px;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 1rem auto;
+	padding: 0 1rem 1rem;
+}
+
+.form-error {
+	background: #fbb;
+	color: darkred;
+	padding: 0.5rem 1rem;
+}
+
+ul.posts {
+	list-style: none;
+	padding: 0;
+}
+
+ul.posts li {
+	background: #ebebeb;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+ul.posts a {
+	color: darkred;
+	font-weight: bold;
+}
+
+.success {
+	padding: 1rem;
+	margin: 10px 0;
+	background: green;
+	color: white;
+}
+
+.delete {
+	background: red;
+	color: white;
+	border: none;
+}
+
+
+img {
+  max-width: 500px;
+  justify-content: center;
+}
+
+.posts {
+margin-bottom: 25px;  
+text-align: center;
+background-color: white;
+max-width: 700px;
+margin: auto;
+}
+
+html {
+  background-color: #ceeae7;
+}
+
+h1 {
+  text-align: center;
+}
